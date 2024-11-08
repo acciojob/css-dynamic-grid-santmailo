@@ -1,11 +1,13 @@
 /*  your css code here. If applicable */
 
 .grid-container{
-	display: grid;
+	display: flex;
 }
 
 .grid-item{
-	display: block;
+	display: flex;
+	justify-content:center;
+	align-items: center;
 	width: 200px;
 	height: 150px;
 	background-color: lightgray;
