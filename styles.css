@@ -1,9 +1,7 @@
 /*  your css code here. If applicable */
 
 .grid-container{
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+	display: grid;
 }
 
 .grid-item{
