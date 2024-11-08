@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+
+.grid-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.grid-item{
+	width: 200px;
+	height: 150px;
+	background-color: lightgray;
+	border-radius:5px;
+	font-size: 40px;
+}
